@@ -40,8 +40,7 @@ python predict.py "I was charged twice for the same purchase"
 
 ## Live demo
 `demo/app.py` is a small Streamlit app that loads the published model from the Hugging Face Hub.
-**Live demo:** _paste your streamlit.app link here after deploying_ | **Model:** _paste your Hugging Face link here_
-
+**Live demo:** https://ticket-classifier-distilbert-n8tdg2y8rs5ohppy5zwqxh.streamlit.app/ | **Model:** https://huggingface.co/ThanuNaina/distilbert-banking77
 ## Business problem
 Routing customer messages to the right team by hand is slow. An automatic classifier can route them instantly. The business question is **which model to use**: a cheap baseline, a fine-tuned model, or a general LLM. `REPORT.md` answers it with evidence.
 
